@@ -19,19 +19,20 @@ reveal.sub {
 
 .reveal h1 {
 	font-size: 1.5em;
-  test-align: center;
+  text-align: center;
 }
 .reveal h2 {
 	font-size: .9em;
-  test-align: center;
+  text-align: center;
 }
 .reveal h3 {
 	font-size: .9em;
-  test-align: center;
+  text-align: center;
 }
 
 .reveal h6 {
 	font-size: .5em;
+
 }
 
 .reveal small {
@@ -128,7 +129,7 @@ ul {
   justify-content: center;
   justify-content: space-between;
   align-items: flex-end;
-  
+
 }
 
 /* Force title on top

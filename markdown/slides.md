@@ -1,5 +1,40 @@
-Introduction
+Who am I
 ---------------
+<blockquote style="display:block; width:80%; font-size:.8em; background:#eeeeee; text-align:center">
+I use computational models to understand how cells interact with eachother and their environment in development and disease.
+</blockquote>
+
+<div style="margin-top:50px; display: flex; flex-direction: row; font-size:.75em; justify-content: space-between; align-items: flex-end; text-align:center">
+  <div style="width:350px; box-sizing: border-box;">
+    <div style="margin-bottom:5px">angiogenesis</div>
+    <video width="300px" controls loop autoplay>
+    <source src="movies/dtc_Ct_0133.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div style="width:350px; box-sizing: border-box;">
+  <div style="margin-bottom:10px">cell migration in ECM</div>  
+  <video width="300px" controls loop autoplay>
+  <source src="movies/track_1rod_polarized_0010.mp4" type="video/mp4">
+  </video>  
+  </div>
+  <div style="width:350px; box-sizing: border-box;">
+  <div style="margin-bottom:10px">2D cell migration</div>  
+  <video width="300px" controls loop autoplay>
+  <source src="movies/ma_multicell_0027-1.mp4" type="video/mp4">
+  </video>  
+  </div>
+</div>
+
+
+What do I know about data visualization
+---------------------------------------------
+* I'm not an expert, I just spent a lot of time visualizing data
+
+<img src="images/plotting_experience.svg" style="display:block">
+
+* I want to share my experience on
+  * tools that help with visualization
+  * making visualization ready for reports, presentations, etc.
 
 
 
