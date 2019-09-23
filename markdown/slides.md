@@ -91,6 +91,15 @@ What is (not) a *good* plot
 </div>
 
 
+More examples
+--------------------------
+* Misleading axes
+
+<img width="50%" style="display:block" src="images/yaxis.svg">
+
+* Too many (?)
+<img style="display:block" width="100%" src="images/too_many.svg">
+
 
 Tools - plot types
 -----------------------------
@@ -155,11 +164,15 @@ Tools - better colormaps
 
 
 
-Aims of this workshop
+This workshop
 -------------------------------
-* Basic plotting with `matplotlib`
-* Utilize `seaborn` to improve your plots
-* Utilize `pandas` together with `seaborn`
+* Aims:
+  * get a *taste* of creating good plots with Python
+  * get some handles to continue on your own
+* Topics:
+  * Basic plotting with `matplotlib`
+  * Utilize `pandas` together with `seaborn`
+  * Utilize `seaborn` to make publication ready plots
 
 
 
