@@ -1,5 +1,13 @@
 Who am I
 ---------------
+<div>
+  <img width="800px" style="display:block; margin-top:50px; margin-bottom:50px" src="images/carreer.svg">
+  <img style="display:block" width="700px" src="images/cloud.svg">
+</div>
+
+
+What do I do
+-----------------
 <blockquote style="display:block; width:80%; font-size:.8em; background:#eeeeee; text-align:center">
 I use computational models to understand how cells interact with eachother and their environment in development and disease.
 </blockquote>
@@ -34,7 +42,7 @@ What do I know about data visualization
 
 * I want to share my experience on
   * tools that help with visualization
-  * making visualization ready for reports, presentations, etc.
+  * making visualizations ready for reports, presentations, etc.
 
 
 
@@ -60,16 +68,6 @@ Why visualize data
 </div>
 
 
-What is (not) a *good* plot
---------------------------
-<div style="text-align:center">
-<img width="50%" src="https://serialmentor.com/dataviz/introduction_files/figure-html/ugly-bad-wrong-examples-1.png">
-  <div style="font-size: .5em; text-align: center; margin-bottom: 20px">
-  Image from Fundamentals of Data Visualization by Claus O. Wilke
-  </div>
-</div>
-
-
 How to get from exploration to presentation?
 --------------------------------------------------
 1. Make a *good* exploratory plot
@@ -83,9 +81,23 @@ How to get from exploration to presentation?
   * How long will the audience be looking at the plot?
 
 
+What is (not) a *good* plot
+--------------------------
+<div style="text-align:center">
+<img width="50%" src="https://serialmentor.com/dataviz/introduction_files/figure-html/ugly-bad-wrong-examples-1.png">
+  <div style="font-size: .5em; text-align: center; margin-bottom: 20px">
+  Image from Fundamentals of Data Visualization by Claus O. Wilke
+  </div>
+</div>
+
+
 
 Tools - plot types
 -----------------------------
+<img style="display:block" src="images/example_styles.svg">
+
+* Try different plot types during exploration
+* Use the most suiting one for presenting
 
 
 Tools - plot types - finding the right type
@@ -113,18 +125,33 @@ Tools - plot elements
 -------------------------------
 <div>
 <img src="https://serialmentor.com/dataviz/aesthetic_mapping_files/figure-html/common-aesthetics-1.png">
-<div>Image from [Fundamentals of Data Visualization by Claus O. Wilke](https://serialmentor.com/dataviz/)</div>
+  <div style="font-size: .5em; text-align: center; margin-bottom: 20px">
+  Image from Fundamentals of Data Visualization by Claus O. Wilke
+  </div>
 </div>
 
+* Use for distinguishing data
+* Use for highlighting the message of a plot
 
 
 Tools - colors
-------------------------
-* Choosing a colormap:
-  * Represent values: sequential
-  * Distinguish lines: qualitative
-  *
-https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
+-----------------------
+* Issues:
+  * not everyone can percieve all colors
+  * not every beamer/printer reproduces colors as intendend
+* Solutions:
+  * use sequential color maps for values
+  * match plot and legend order
+  * make colors redundent if possible
+  * use divergent colors for distinguishing
+
+
+Tools - better colormaps
+-------------------------------------
+* Rainbow and Jet are evil, don't use them!
+<img style="display:block;" src="images/sphx_glr_colormaps_014.png">
+* Use sequential colormaps that also work with grey scale:
+<img style="display:block;" src="images/sphx_glr_colormaps_008.png">
 
 
 
@@ -133,19 +160,6 @@ Aims of this workshop
 * Basic plotting with `matplotlib`
 * Utilize `seaborn` to improve your plots
 * Utilize `pandas` together with `seaborn`
-
-
-Matplotlib
-----------------
-* Designed to work well with *scipy ecosystem*
-* Choice between object oriented and procedural interface
-
-
-Seaborn
----------------
-* High-level interface for drawing attractive and informative statistical graphics.
-* Build upon matplotlib making visualization fully adapteble.
-* Designed to work together with pandas DataFrames
 
 
 
