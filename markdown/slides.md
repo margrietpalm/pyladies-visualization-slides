@@ -98,7 +98,11 @@ More examples
 <img width="50%" style="display:block" src="images/yaxis.svg">
 
 * Too many (?)
-<img style="display:block" width="100%" src="images/too_many.svg">
+
+<div>
+  <img height="250px" src="images/too_many.svg">
+  <img height="250px" src="images/example_multicurves.svg">
+</div>
 
 
 Tools - plot types
